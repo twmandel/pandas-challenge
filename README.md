@@ -1,0 +1,9 @@
+# pandas-challenge
+Module 4 Challenge
+In this analysis we took data from two seperate CSV files; one containing data regarding schools, another regarding its students. After merging together the two data files, we first analyzed the data in the broadest sense - by the entire district (District Summary). We then narrowed down our focus to analyzing the data sorted by school (School Summary). We then used this filtered data to rank the top 5 and the bottom 5 schools by overall passing percentage. In the next section of the analysis, we turned our attention to the students grades. We sorted the grades in 5 different ways: math scores by grade, reading scores by grade, scores by school spending, scores by school size and finally scores by school types. 
+
+One conclusion that could be drawn from this analysis comes from our ranking of the schools by overall passing percentages. According to the gathered data, the size of the studnt body played a large role in passining percentages. Four of the five top schools had less than 2,000 students. While all of the bottom five schools had more than 2,900 students. We also see in the sorting by school size that small and medium sized schools had an overall passing rate hovering around 90% while large schools were only about 58%
+
+The second conclusion is the most definitive of the entire analysis. The undeniably biggest factor in whether or not the average student passes their classes is the type of school they are in. Charter schools boast a 90% overall passining percentage. A staggering 37% increase over the District schools, which sit at 53%. In addition to this, all of the top 5 schools are charters while all of the bottom 5 are district.
+
+I worked on part of this assignment with Lucas De Block. Together we figured out the .first() function and the work around of the formatting
